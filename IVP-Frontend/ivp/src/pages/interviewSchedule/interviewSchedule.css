@@ -1,0 +1,17 @@
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: #AED66C;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -8px;
+    margin-right: 3px;
+  }
+  .dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #FFC745;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -8px;
+  }

@@ -1,0 +1,20 @@
+.questionHeading {
+    text-align: center;
+}
+.dropdownHeader {
+    background-color: #3969A3;
+    outline: none;
+}
+.icon {
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    width:30px;
+    height: 30px;
+}
+.inputCategory {
+    width:50%;
+}
+.questionTextFeild {
+    width: 90%;
+}

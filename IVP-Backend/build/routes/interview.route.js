@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const router = (0, express_1.Router)();
+const interview_controller_1 = require("../controller/interview.controller");
+const interviewController = new interview_controller_1.InterviewController();
+router.post('/interview', interviewController.addInterview);
+router.get('/interview/:interviewid', interviewController.getQuestionsByInterviewId);
+router.get('/interview/status/:statusname', interviewController.getInterviewByStatusName);
+router.get('/interview', interviewController.getAllInterview);
+router.put('/interview/:interviewid', interviewController.updateInterview);
+module.exports = router;
